@@ -17,6 +17,8 @@ Develop a machine learning model to predict customer churn for SyriaTel.
 ## Notebook Structure
 - Data Wrangling
 - Exploratory Data Analysis
+- Data Preprocessing
+- Modeling
 - Conclusions
 - Recommendations
 
@@ -44,6 +46,11 @@ The data used in this notebook was obtained from Kaggle. It contains the followi
             customer service calls  - Number of calls made to the customer service center by a subscriber
             churn - Whether or not a customer is retained
 
+### Methodology
+### Data Wrangling
+The dataset had 0 null and 0 missing values. 'international plan' and 'voice mail plan' were converted into different datatypes to allow for further analysis
+
+### Exploratory Data Analysis
  
 
 
