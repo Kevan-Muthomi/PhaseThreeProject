@@ -10,9 +10,9 @@ SyriaTel, like many telecommunication companies, faces a significant challenge: 
 Develop a machine learning model to predict customer churn for SyriaTel.
 
 ### Specific Objectives
- -Identify patterns and relationships within customer data that are indicative of churn.
- -Identify patterns and relationships within customer data that are indicative of churn.
- -Select the best performing model and interpret its results to understand key factors influencing churn.
+  1. Identify patterns and relationships within customer data that are indicative of churn.
+  2. Identify patterns and relationships within customer data that are indicative of churn.
+  3. Select the best performing model and interpret its results to understand key factors influencing churn.
 
 ## Notebook Structure
 - Data Wrangling
@@ -20,6 +20,29 @@ Develop a machine learning model to predict customer churn for SyriaTel.
 - Conclusions
 - Recommendations
 
+### Data Understanding
+The data used in this notebook was obtained from Kaggle. It contains the following columns:
+            
+            account length - The duration in which a customer has been a subscriber to SyriaTel            
+            area code - Area code of the subscriber        
+            phone number - Subscriber telephone number              
+            international plan -Whether a customer is subscribed to an international call plan
+            voice mail plan  - Whether a customer is subscribed to the voicemail plan
+            number vmail messages   - Count of the number of voicemail messages sent by a subscriber
+            total day minutes       - Total duration in minutes spent by a subscriber during calls made during the day 
+            total day calls         - Total number of calls made during the day
+            total day charge        - Total cost given to the subscriber during the day
+            total eve minutes       - Total duration in minutes spent by a subscriber during calls made during the evening
+            total eve calls         - Total number of calls made during the evening
+            total eve charge        - Total cost given to the subscriber during the evening
+            total night minutes     - Total duration in minutes spent by a subscriber during calls made during the night
+            total night calls       - Total number of calls made during the night 
+            total night charge      - Total number of calls made during the evening
+            total intl minutes      - Total duration in minutes spent by a subscriber during calls made internationally
+            total intl calls        - Total number of calls made internationally
+            total intl charge       - Total cost given to the subscriber during international calls
+            customer service calls  - Number of calls made to the customer service center by a subscriber
+            churn - Whether or not a customer is retained
 
  
 
