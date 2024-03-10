@@ -51,7 +51,10 @@ The data used in this notebook was obtained from Kaggle. It contains the followi
 The dataset had 0 null and 0 missing values. 'international plan' and 'voice mail plan' were converted into different datatypes to allow for further analysis
 
 ### Exploratory Data Analysis
- 
+### Data Preprocesing
+A train test split was performed on the data in order to divide the dataset into the training and testing data.
+### Modeling
+
 
 
 
