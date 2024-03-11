@@ -62,10 +62,11 @@ A train test split was performed on the data in order to divide the dataset into
 
 ### Modelling
 For this project, models were created, evaluated and tuned to provide accurate predictions for customer churn
+
 The models used include:
-    -  Decision Tree Classifier. This algorithm partitions the dataset into refined subsets, predicting the class of new data based on feature values.
-    -  K- Nearest Neighbour. 
-    -  XGBoost XGBoost merges weak models, like decision trees, using features such ensemble learning, which result in a more accurate model.
+-  Decision Tree Classifier. This algorithm partitions the dataset into refined subsets, predicting the class of new data based on feature values.
+-  K- Nearest Neighbour. 
+-  XGBoost XGBoost merges weak models, like decision trees, using features such ensemble learning, which result in a more accurate model.
     
      
     
