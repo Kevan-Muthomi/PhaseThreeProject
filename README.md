@@ -60,8 +60,6 @@ The dataset had 0 null and 0 missing values.
 ### Data Preprocesing
 -A train test split was performed on the data in order to divide the dataset into the training and testing data.
 
--
-
 ### Modelling
 -For this project, models were created, evaluated and tuned to provide accurate predictions for customer churn
 
@@ -71,7 +69,11 @@ The models used include:
 -  XGBoost XGBoost merges weak models, like decision trees, using features such ensemble learning, which result in a more accurate model.
 
 
-## Conclusion
+## Conclusions
+- The column total_charge has the highest correlation with customer churn since it has proved to be crucial during the training and testing of the models
+
+- XGBoost proved to be the best suited model due to its high accuracy scores
+
 ## Recommendation(s)
 1. Pricing and Contract Flexibility: If pricing is a major churn factor, consider offering more flexible plans, introductory discounts, or tiered pricing options to cater to different customer needs and budgets.
 2. Targeted Promotions and Discounts: Use the model to identify customer segments at risk of churning and offer them targeted discounts, loyalty programs, or bundled packages that address their specific needs and usage patterns.
