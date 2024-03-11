@@ -58,17 +58,24 @@ The dataset had 0 null and 0 missing values.
      Relevant visaulizations were generated from the analysis
 
 ### Data Preprocesing
-A train test split was performed on the data in order to divide the dataset into the training and testing data.
+-A train test split was performed on the data in order to divide the dataset into the training and testing data.
+
+-
 
 ### Modelling
-For this project, models were created, evaluated and tuned to provide accurate predictions for customer churn
+-For this project, models were created, evaluated and tuned to provide accurate predictions for customer churn
 
 The models used include:
 -  Decision Tree Classifier. This algorithm partitions the dataset into refined subsets, predicting the class of new data based on feature values.
 -  K- Nearest Neighbour. 
 -  XGBoost XGBoost merges weak models, like decision trees, using features such ensemble learning, which result in a more accurate model.
-    
-     
+
+
+## Conclusion
+## Recommendation(s)
+1. Pricing and Contract Flexibility: If pricing is a major churn factor, consider offering more flexible plans, introductory discounts, or tiered pricing options to cater to different customer needs and budgets.
+2. Targeted Promotions and Discounts: Use the model to identify customer segments at risk of churning and offer them targeted discounts, loyalty programs, or bundled packages that address their specific needs and usage patterns.
+3. Improved Customer Service: Analyze customer service interactions within the data to identify areas for improvement. Train customer service representatives to address churn-related concerns effectively and offer personalized solutions.
     
 
 
