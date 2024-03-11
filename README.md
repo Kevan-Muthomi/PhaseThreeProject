@@ -48,12 +48,30 @@ The data used in this notebook was obtained from Kaggle. It contains the followi
 
 ### Methodology
 ### Data Wrangling
-The dataset had 0 null and 0 missing values. 'international plan' and 'voice mail plan' were converted into different datatypes to allow for further analysis
+The dataset had 0 null and 0 missing values.
 
 ### Exploratory Data Analysis
+1. Univariate EDA Univariate data analysis focuses on analyzing individual variables to remove any outliers within the dataset
+2. Bivariate Analysis Bivariate analysis examines the relationship between two variables. This helped in understanding how different features relate to customer churn.
+3. Multivariate Analysis Multivariate analysis investigates the interplay among multiple variables, focusing on their correlation with the target variable, customer churn
+
+     Relevant visaulizations were generated from the analysis
+
 ### Data Preprocesing
 A train test split was performed on the data in order to divide the dataset into the training and testing data.
-### Modeling
+
+### Modelling
+For this project, models were created, evaluated and tuned to provide accurate predictions for customer churn
+
+The models used include:
+-  Decision Tree Classifier. This algorithm partitions the dataset into refined subsets, predicting the class of new data based on feature values.
+-  K- Nearest Neighbour. 
+-  XGBoost XGBoost merges weak models, like decision trees, using features such ensemble learning, which result in a more accurate model.
+    
+     
+    
+
+
 
 
 
