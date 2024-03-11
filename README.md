@@ -51,9 +51,9 @@ The data used in this notebook was obtained from Kaggle. It contains the followi
 The dataset had 0 null and 0 missing values.
 
 ### Exploratory Data Analysis
-     Univariate EDA Univariate data analysis focuses on analyzing individual variables to remove any outliers within the dataset
-     Bivariate Analysis Bivariate analysis examines the relationship between two variables. This helped in understanding how different features relate to customer churn.
-     Multivariate Analysis Multivariate analysis investigates the interplay among multiple variables, focusing on their correlation with the target variable, customer churn
+1. Univariate EDA Univariate data analysis focuses on analyzing individual variables to remove any outliers within the dataset
+2. Bivariate Analysis Bivariate analysis examines the relationship between two variables. This helped in understanding how different features relate to customer churn.
+3. Multivariate Analysis Multivariate analysis investigates the interplay among multiple variables, focusing on their correlation with the target variable, customer churn
 
      Relevant visaulizations were generated from the analysis
 
